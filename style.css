@@ -16,6 +16,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.footer {
+    background-color: darkslategray;
+    color: aliceblue;
+}
+
 .header h1 {
     font-family: "Roboto Mono", serif;
     font-optical-sizing: auto;
@@ -65,8 +71,8 @@ body {
     animation-iteration-count: infinite;
     animation-delay: calc(30s / 4 * (4 - var(--n)) * -1);
     
-    
 }
+
 .item img {
     object-fit: cover;
     width: 100%;
@@ -84,9 +90,11 @@ body {
     text-align: right;
     font-size: 30px;
 }
+
 .title {
     font-size: 120px;
 }
+
 .subtitle {
     font-size: 70px;
 }
@@ -101,6 +109,7 @@ body {
         scale: 1;
     }
 }
+
 .icon {
     animation: appear linear;
     animation-timeline: view();
@@ -110,12 +119,24 @@ body {
     z-index: 15;
     bottom: 40px;
 }
+
 .icon img {
     width: 500px;
 }
+
 .icon img:hover {
     scale: 1.1;
 }
+
 [data-link] {
     cursor: pointer;
-  }
+}
+.about {
+    height: 100%;
+}
+
+.about-title {
+    font-family: "Poppins", serif;
+    margin-top: 15px;
+    font-size: 100px;
+}
