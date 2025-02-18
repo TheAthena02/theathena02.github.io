@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<script src="jquery.min.js"></script>
+</head>
+<body>
+    <div class="header" inner-link="./index.html"><h1>Cora Lawrence : Game Developer</h1></div>
+    <div class="card" inner-link="./index.html">
+        <div class="about">
+            <div class="about-title">Oopsies!</div>
+            <img src="https://cdn-icons-png.flaticon.com/512/10549/10549291.png">
+            <div class="about-par">This page is being worked on. Click to return to the Main Page.</div>
+        </div>
+    </div>
+    <div class="footer">Copyright 2025 Cora Lawrence. Do you like my video games? :3<img src="https://cdn.discordapp.com/attachments/1268887899634667600/1278834321150443684/image0.gif?ex=67b5a985&is=67b45805&hm=dcb5ee12757f0bcd7d6761e0a1c2756b8f0a82e75506051daa57764f22ed7309&"></div>
+
+    </body>
+    <script>
+        $(document).ready(function() {
+  $("[data-link], [inner-link]").click(function() {
+    var newTabUrl = $(this).attr("data-link");
+    var sameTabUrl = $(this).attr("inner-link");
+
+    if (newTabUrl) {
+      window.open(newTabUrl, "_blank"); // New tab
+    } else if (sameTabUrl) {
+      window.location.href = sameTabUrl; // Same tab
+    }
+    return false;
+  });
+});
+     </script>
+</html>
