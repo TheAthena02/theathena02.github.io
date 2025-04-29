@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Portfolio</title>
+        <title>Portfolio - Other Work</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,28 +12,34 @@
 <script src="jquery.min.js"></script>
 </head>
 <body>
-    <div class="header" inner-link="./index.html"><h1>Cora Lawrence : Game Developer</h1></div>
-    <div class="card">
+  <div class="header">
+
+    <h1><a href="index.html">Cora Lawrence : Game Developer</a></h1>
+    <div class="linkContainer">
+        <a href="mailto:scoutmaster404@gmail.com" class="btn" target="_blank">Contact Me!</a><a href="https://ladyathena02.itch.io" class="btn" target="_blank">Itch.io</a><a href="https://www.artstation.com/theathena02" class="btn" target="_blank">Artstation</a><a href="./pdf/CoraLawrenceResume.pdf" class="btn" target="_blank">Resume</a>
+    </div>
+</div>
+    <div class="info">
         <div class="about">
             <div class="about-title" style="justify-content: center;">Bunny Game</div>
         <iframe frameborder="0" src="https://itch.io/embed-upload/12780034?color=333333" allowfullscreen="" width="1152" height="668"><a href="https://ladyathena02.itch.io/robobunny">Play Robobunny on itch.io</a></iframe>
-    </div></div>
-    <div class="footer">Copyright 2025 Cora Lawrence. Do you like my video games? :3<div class="tenor-gif-embed" data-postid="24303276" data-share-method="host" data-aspect-ratio="1.06667" data-width="1%"><a href="https://tenor.com/view/dancing-cat-dancing-kitten-60fps-boogie-cat-gif-24303276">Dancing Cat Dancing Kitten GIF</a>from <a href="https://tenor.com/search/dancing+cat-gifs">Dancing Cat GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        <div class="par">
+          This game demonstrates using 100% handmade assets in a game setting. It is made in Godot.
+        </div>
+      </div>
+      <div class="about">
+        <div class="about-title">Oiligarchy Rework</div>
+        <div class="embed-holder">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/4jpPN4uR9Ek?si=EyRm_haiRl5btdux" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="par">Serious Games rework.</div>
+      </div></div>
+      <div class="footer"><div class="footerline">Copyright 2025 Cora Lawrence. Do you like my video games? :3<div class="tenor-gif-embed" data-postid="24303276" data-share-method="host" data-aspect-ratio="1.06667" data-width="5%"><a href="https://tenor.com/view/dancing-cat-dancing-kitten-60fps-boogie-cat-gif-24303276">Dancing Cat Dancing Kitten GIF</a>from <a href="https://tenor.com/search/dancing+cat-gifs">Dancing Cat GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script></div>
+      <div class="links"><a href="mailto:scoutmaster404@gmail.com" target="_blank">scoutmaster404@gmail.com</a>  (406)471-3936  <a href="" target="_blank">LinkedIn</a>  <a href="https://ladyathena02.itch.io" target="_blank">Itch.io</a>  <a href="https://www.artstation.com/theathena02" target="_blank">Artstation</a></div>
+  </div>
 
     </body>
     <script>
-        $(document).ready(function() {
-  $("[data-link], [inner-link]").click(function() {
-    var newTabUrl = $(this).attr("data-link");
-    var sameTabUrl = $(this).attr("inner-link");
-
-    if (newTabUrl) {
-      window.open(newTabUrl, "_blank"); // New tab
-    } else if (sameTabUrl) {
-      window.location.href = sameTabUrl; // Same tab
-    }
-    return false;
-  });
-});
+        
      </script>
 </html>

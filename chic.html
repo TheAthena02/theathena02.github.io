@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio - Chic</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<script src="jquery.min.js"></script>
+</head>
+<body>
+    <div class="header">
+
+        <h1><a href="index.html">Cora Lawrence : Game Developer</a></h1>
+        <div class="linkContainer">
+            <a href="mailto:scoutmaster404@gmail.com" class="btn" target="_blank">Contact Me!</a><a href="https://ladyathena02.itch.io" class="btn" target="_blank">Itch.io</a><a href="https://www.artstation.com/theathena02" class="btn" target="_blank">Artstation</a><a href="./pdf/CoraLawrenceResume.pdf" class="btn" target="_blank">Resume</a>
+        </div>
+    </div>
+    <div class="info">
+        
+            <div class="about">
+                <div class="about-title" style="justify-content: center;">Chic</div>
+                <div class="par">Built in 48 hours as part of the Global Game Jam 2025, play as Chic, a Spanish Sparrow who falls from their nest. While they can't fly on their own, a magical toad gives them a bubble while they learn to fly.  Blow on the bubble, or say encouraging words to Chic to get them moving. Help them learn to fly and get home!</div>
+            </div>
+            <div class="screenshots"><!-- Put a carousel of images here !-->
+                <!-- W3 SCHOOLS SLIDESHOW CODE https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="https://img.itch.zone/aW1nLzE5NTYxODIxLnBuZw==/original/f43jOF.png">
+                    <div class="text">Title Screen</div>
+                    </div>
+                
+                    <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="https://img.itch.zone/aW1hZ2UvMzI3NzMxNi8xOTU1ODcyOS5wbmc=/original/gGUnqn.png">
+                    <div class="text">Frog, Bubble, and Bird Model</div>
+                    </div>
+                
+                    <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="https://img.itch.zone/aW1hZ2UvMzI3NzMxNi8xOTU1ODczMC5wbmc=/original/IKwNUm.png">
+                    <div class="text">Nest Model, 2D Billboard Assets</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 5</div>
+                        <img src="./images/conceptArtChic1.png">
+                        <div class="text">Concept 1</div>
+                        </div>
+                    
+                        <div class="mySlides fade">
+                            <div class="numbertext">5 / 5</div>
+                            <img src="./images/conceptArtChic2.png">
+                            <div class="text">Concept 2</div>
+                            </div>
+                
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+            </div>
+            <div class="about">
+                <div class="par-title">Idea</div>
+            <div class="par">The theme for the Global Game Jam was bubble. At first, the idea was to follow a rat trapped in a soapy bowl, who then blows a bubble to escape the house hes trapped in. This then became a bird, lost from their nest, trying to get home with the help of a bubble. Originally, the idea was to have a long, multi-level game through different environments. However, as we developed, we found that that was far beyond the scope of the time we had. We shortened this down to just the starter area, as a sandbox for the player.
+            </div>
+        </div>
+            <div class="about">
+                <div class="par-title">Development</div>
+                <div class="par">
+                    After working on the ideas as a team, and creating concept art to support it, I got to work on the main character, Chic. I modeled them in blender, using the built in texture painter. As an added challenge, and to keep the game small, we took on the 256 modifier, which stated that all models must be 256 triangles or less, and all images must be 256 resolution. This made modeling challenging, and I had to be deliberate where I spent my limited detail. This was the case for the frog, nest, and bubble as well.
+                </div>
+                <div class="par">
+                    I then got to work on the 2D assets of the game, all made in Aseprite. I created 2D billboard assets to be placed as a border for the level, and to split up sections. I made an intro animation, titlescreen, and icon. I made a UI element for the wind mechanic. 
+                </div>
+                <div class="par">
+                    <img src="./images/IntroAnimatic.gif" alt="Intro Animation" style="width: 60vw;">
+                </div>
+                <div class="par">
+                    I worked with my team to implement all of these into the Unity project, and did my own additions, such as creating the wind bar UI, the bubble shader, and the billboard prefabs. After the Jam, I used the 2D assets I created to make a professional Itch.io page.
+                </div>
+        </div>
+            <div class="about"><div class="par-title">Reception</div>
+            <div class="par">The game was recieved well within the University of Montana Jam site. After release on Itch.io, the game recieved 150 views and 25 downloads.</div>   
+            
+        </div>
+        <div class="embed-holder">
+            <iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/3277316"><a href="https://sollytowerstests.itch.io/chic">Chic by sollytowerstests, Athena</a></iframe>
+        </div>
+        
+            
+            
+        </div>
+    </body>
+    <div class="footer"><div class="footerline">Copyright 2025 Cora Lawrence. Do you like my video games? :3<div class="tenor-gif-embed" data-postid="24303276" data-share-method="host" data-aspect-ratio="1.06667" data-width="5%"><a href="https://tenor.com/view/dancing-cat-dancing-kitten-60fps-boogie-cat-gif-24303276">Dancing Cat Dancing Kitten GIF</a>from <a href="https://tenor.com/search/dancing+cat-gifs">Dancing Cat GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script></div>
+        <div class="links"><a href="mailto:scoutmaster404@gmail.com" target="_blank">scoutmaster404@gmail.com</a>  (406)471-3936  <a href="" target="_blank">LinkedIn</a>  <a href="https://ladyathena02.itch.io" target="_blank">Itch.io</a>  <a href="https://www.artstation.com/theathena02" target="_blank">Artstation</a></div>
+    </div>
+
+   
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        }
+     </script>
+</html>

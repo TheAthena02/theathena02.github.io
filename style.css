@@ -54,6 +54,31 @@ body {
 .footer {
     background-color: darkslategray;
     color: aliceblue;
+    display:inline-block;
+    width: 100%;
+    align-content: center;
+    margin: auto;
+    padding: 0, 0, 0, 0;
+    
+}
+
+.footer div {
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.footer a {
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    color:rgb(129, 129, 129)
+}
+.footerline {
+    display: block;
 }
 
 .header h1 {
@@ -195,6 +220,7 @@ body {
 .par {
     font-size: 1.3rem;
     text-indent: 5%;
+    padding-bottom: 3vh;
 }
 
 .par a {
@@ -204,6 +230,16 @@ body {
 .par a:hover {
     color: #bdbdbd;
 }
+
+.embed-holder {
+    align-content: center;
+    text-align: center;
+}
+.embed-holder iframe {
+    margin: auto;
+    justify-content: center;
+}
+
 
 /* W3 SCHOOLS SLIDESHOW CODE https://www.w3schools.com/howto/howto_js_slideshow.asp */
 * {box-sizing:border-box}
