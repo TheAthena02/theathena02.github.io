@@ -16,14 +16,14 @@
 
         <h1><a href="index.html">Cora Lawrence : Game Developer</a></h1>
         <div class="linkContainer">
-            <a href="mailto:scoutmaster404@gmail.com" class="btn" target="_blank">Contact Me!</a><a href="https://ladyathena02.itch.io" class="btn" target="_blank">Itch.io</a><a href="https://www.artstation.com/theathena02" class="btn" target="_blank">Artstation</a><a href="./pdf/CoraLawrenceResume.pdf" class="btn" target="_blank">Resume</a>
+            <a href="#footer" class="btn">Contact Me!</a><a href="https://ladyathena02.itch.io" class="btn" target="_blank">Itch.io</a><a href="https://www.artstation.com/theathena02" class="btn" target="_blank">Artstation</a><a href="./pdf/CoraLawrenceResume.pdf" class="btn" target="_blank">Resume</a>
         </div>
     </div>
     <div class="info">
         
             <div class="about">
-                <div class="about-title" style="justify-content: center;">Reloaded</div>
-                <div class="par">Reloaded is a Multiplayer FPS in Unity using Photon PUN 2. In Reloaded, the rifle is completely manual. Players must complete a string of button prompts, shown on screen, to complete steps in the reload animation. This, along with a tight map and fast movement, means a high stakes environment where every shot counts and accuracy is key to victory.</div>
+                <div class="about-title" style="justify-content: center;">Kickback</div>
+                <div class="par"></div>
             </div>
             <div class="screenshots"><!-- Put a carousel of images here !-->
                 <!-- W3 SCHOOLS SLIDESHOW CODE https://www.w3schools.com/howto/howto_js_slideshow.asp -->
@@ -70,30 +70,29 @@
                     
                 </div>
             </div>
-            <div class="about">
-                <div class="par-title">Idea</div>
-            <div class="par">The idea of this game was to dabble in precedural generation. WRITE MORE
-            </div>
-        </div>
+            
+       
             <div class="about">
                 <div class="par-title">Development</div>
                 <div class="par">
-                    Kickback uses a custom procedurally generated level built from the ground up. It uses modules that are randomly picked and spawned in a line from the start block, with checkpoints that clear previous levels. WRITE MORE
+                    Kickback uses a custom procedurally generated level built from the ground up. It uses modules that are randomly picked and spawned in a line from the start block, with checkpoints that clear previous levels.
+                    <br><img src="./images/SpawnHandler.png" style="width: 50%;"><br>
+                    This blueprint handles the base spawning of modules. The spawn handler creates itself and calls the function over again, until it reaches the max amount of spawns. It then creates a checkpoint. This checkpoint clears all previous modules and starts the cycle again anew.
+                    <br><br>
+                    <img src="./images/shootCode.png" style="width: 60%;"><br>
+                    Each Weapon has similar functions, but applies a different force to the player and damage to the enemy. 
+                    <br><img src="./images/ReloadCode.png" style="width: 70%;"><br>
+                    Here, I use structures to keep track of the current weapon data. This is then used to update the HUD. Each reload has a timer. I found that it was more enjoyable to have the guns reload, even when not equiped, to keep the gameplay moving quick.
+
                 </div>
-                
-                
-        </div>
-            <div class="about"><div class="par-title">Reception</div>
-            <div class="par">Players don't notice that the game is procedurally generated. While this is partly because of a lack of modules in its current state, this is actually a good thing. It's only on their second playthrough that players realize that the entire level is building in front of them. Players love the movement mechanics of the guns, especially the shotgun.</div>   
-            
-        </div>
+            </div>
        
         
             
             
         </div>
     </body>
-    <div class="footer"><div class="footerline">Copyright 2025 Cora Lawrence. Do you like my video games? :3<div class="tenor-gif-embed" data-postid="24303276" data-share-method="host" data-aspect-ratio="1.06667" data-width="5%"><a href="https://tenor.com/view/dancing-cat-dancing-kitten-60fps-boogie-cat-gif-24303276">Dancing Cat Dancing Kitten GIF</a>from <a href="https://tenor.com/search/dancing+cat-gifs">Dancing Cat GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script></div>
+    <div class="footer"  id ='footer'><div class="footerline">Copyright 2025 Cora Lawrence. Do you like my video games? :3<div class="tenor-gif-embed" data-postid="24303276" data-share-method="host" data-aspect-ratio="1.06667" data-width="5%"><a href="https://tenor.com/view/dancing-cat-dancing-kitten-60fps-boogie-cat-gif-24303276">Dancing Cat Dancing Kitten GIF</a>from <a href="https://tenor.com/search/dancing+cat-gifs">Dancing Cat GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script></div>
         <div class="links"><a href="mailto:scoutmaster404@gmail.com" target="_blank">scoutmaster404@gmail.com</a>  (406)471-3936  <a href="" target="_blank">LinkedIn</a>  <a href="https://ladyathena02.itch.io" target="_blank">Itch.io</a>  <a href="https://www.artstation.com/theathena02" target="_blank">Artstation</a></div>
     </div>
 

@@ -14,8 +14,8 @@ body {
 }
 
 .header, .footer {
-    background-color: rgb(227, 227, 231);
-    color: rgb(34, 32, 32);
+    background-color: rgb(224, 208, 222);
+    color: rgb(65, 36, 58);
     height: 200px;
     display: flex;
     justify-content: center;
@@ -52,8 +52,8 @@ body {
 }
 
 .footer {
-    background-color: darkslategray;
-    color: aliceblue;
+    background-color: rgb(87, 50, 84);
+    color: rgb(254, 240, 255);
     display:inline-block;
     width: 100%;
     align-content: center;
@@ -93,7 +93,7 @@ body {
     max-width: 100%;
     width: 100vw;
     height: 100vh;
-    background: rgb(114, 114, 116);
+    background: rgb(158, 107, 150);
     color: white;
     display: flex;
     align-items: center;
@@ -104,7 +104,7 @@ body {
 } 
 
 .info {
-    background: rgb(114, 114, 116);
+    background: rgb(158, 107, 150);
     color: white;
 }
 
@@ -185,7 +185,7 @@ body {
 }
 
 .icon img {
-    width: 500px;
+    width: 30vw;
 }
 
 .icon img:hover {

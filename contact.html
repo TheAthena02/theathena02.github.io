@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio - Reloaded</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<script src="jquery.min.js"></script>
+</head>
+<body>
+    <div class="header">
+
+        <h1><a href="index.html">Cora Lawrence : Game Developer</a></h1>
+        <div class="linkContainer">
+            <a href="mailto:scoutmaster404@gmail.com" class="btn" target="_blank">Contact Me!</a><a href="https://ladyathena02.itch.io" class="btn" target="_blank">Itch.io</a><a href="https://www.artstation.com/theathena02" class="btn" target="_blank">Artstation</a><a href="./pdf/CoraLawrenceResume.pdf" class="btn" target="_blank">Resume</a>
+        </div>
+    </div>
+    <div class="info">
+        
+            <div class="about">
+                <h1>Contact Me:</h1>
+                Email: <a href="mailto:scoutmaster404@gmail.com" target="_blank">scoutmaster404@gmail.com</a>
+                <br>
+                Phone: <a href="tel:406-471-3936" target="_blank">(406)471-3936</a>
+            </div>
+        </div>
+       
+        
+            
+            
+        </div>
+    </body>
+    <div class="footer"><div class="footerline">Copyright 2025 Cora Lawrence. Do you like my video games? :3<div class="tenor-gif-embed" data-postid="24303276" data-share-method="host" data-aspect-ratio="1.06667" data-width="5%"><a href="https://tenor.com/view/dancing-cat-dancing-kitten-60fps-boogie-cat-gif-24303276">Dancing Cat Dancing Kitten GIF</a>from <a href="https://tenor.com/search/dancing+cat-gifs">Dancing Cat GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script></div>
+        <div class="links"><a href="mailto:scoutmaster404@gmail.com" target="_blank">scoutmaster404@gmail.com</a>  (406)471-3936  <a href="" target="_blank">LinkedIn</a>  <a href="https://ladyathena02.itch.io" target="_blank">Itch.io</a>  <a href="https://www.artstation.com/theathena02" target="_blank">Artstation</a></div>
+    </div>
+
+   
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        }
+     </script>
+</html>
