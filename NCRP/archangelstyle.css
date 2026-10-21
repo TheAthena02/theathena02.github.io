@@ -1,0 +1,66 @@
+body {
+    background-color: #785964;
+}
+
+img.logo{
+    width: 10%;
+}
+
+h1.geostar-regular {
+    color: #0D1F2D;
+    font-size: 80px;
+}
+.centered {
+    background-color: #B796AC;
+    width: 60%;
+    margin-left: 20%;
+    
+}
+.geostar-regular {
+  font-family: "Geostar", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.title {
+    display: inline-block;
+}
+.date {
+    display: inline-block;
+}
+.archive {
+    text-align: end;
+    display: inline-block;
+}
+hr.rounded {
+  border-top: 8px solid #0D1F2D;
+  background-color: #0D1F2D;
+  border-radius: 5px;
+}
+
+img.main-media {
+    width: 80%;
+    margin-left: 10%;
+}
+.caption {
+    width: 100%;
+    text-align: center;
+}
+.article {
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+h1.article-title {
+    color: #0D1F2D;
+    font-size: 60px;
+}
+p.article-body {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 30px;
+    line-height: 50px;
+}
+img.secondary-media {
+    width: 60%;
+    margin-left: 20%;
+}
