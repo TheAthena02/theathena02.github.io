@@ -14,8 +14,8 @@ body {
 }
 
 .header, .footer {
-    background-color: rgb(227, 227, 231);
-    color: rgb(34, 32, 32);
+    background-color: rgb(224, 208, 222);
+    color: rgb(65, 36, 58);
     height: 200px;
     display: flex;
     justify-content: center;
@@ -52,8 +52,33 @@ body {
 }
 
 .footer {
-    background-color: darkslategray;
-    color: aliceblue;
+    background-color: rgb(87, 50, 84);
+    color: rgb(254, 240, 255);
+    display:inline-block;
+    width: 100%;
+    align-content: center;
+    margin: auto;
+    padding: 0, 0, 0, 0;
+    
+}
+
+.footer div {
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.footer a {
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    color:rgb(129, 129, 129)
+}
+.footerline {
+    display: block;
 }
 
 .header h1 {
@@ -68,7 +93,7 @@ body {
     max-width: 100%;
     width: 100vw;
     height: 100vh;
-    background: rgb(114, 114, 116);
+    background: rgb(158, 107, 150);
     color: white;
     display: flex;
     align-items: center;
@@ -79,7 +104,7 @@ body {
 } 
 
 .info {
-    background: rgb(114, 114, 116);
+    background: rgb(158, 107, 150);
     color: white;
 }
 
@@ -160,7 +185,7 @@ body {
 }
 
 .icon img {
-    width: 500px;
+    width: 30vw;
 }
 
 .icon img:hover {
@@ -195,6 +220,7 @@ body {
 .par {
     font-size: 1.3rem;
     text-indent: 5%;
+    padding-bottom: 3vh;
 }
 
 .par a {
@@ -204,6 +230,16 @@ body {
 .par a:hover {
     color: #bdbdbd;
 }
+
+.embed-holder {
+    align-content: center;
+    text-align: center;
+}
+.embed-holder iframe {
+    margin: auto;
+    justify-content: center;
+}
+
 
 /* W3 SCHOOLS SLIDESHOW CODE https://www.w3schools.com/howto/howto_js_slideshow.asp */
 * {box-sizing:border-box}
