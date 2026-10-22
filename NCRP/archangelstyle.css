@@ -26,6 +26,7 @@ h1.geostar-regular {
     display: inline-block;
 }
 .date {
+    margin-left: 20px;
     display: inline-block;
     font-size: 30px;
 }
@@ -92,4 +93,20 @@ footer {
 .ooc-disclaimer {
     color: rgb(82, 78, 78);
     font-size: 14px;
+}
+.ad {
+    top: 100px;
+}
+.left-ad {
+    position: fixed;
+    left: 50px;
+}
+.right-ad {
+    position: fixed;
+    right: 50px;
+}
+.banner-ad {
+    display: block;
+    margin: auto;
+    padding-bottom: 30px;
 }
