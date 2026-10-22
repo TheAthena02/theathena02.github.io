@@ -14,6 +14,7 @@ h1.geostar-regular {
     background-color: #B796AC;
     width: 60%;
     margin-left: 20%;
+    padding-bottom: 30px;
     
 }
 .geostar-regular {
@@ -26,6 +27,7 @@ h1.geostar-regular {
 }
 .date {
     display: inline-block;
+    font-size: 30px;
 }
 .archive {
     text-align: end;
@@ -63,4 +65,31 @@ p.article-body {
 img.secondary-media {
     width: 60%;
     margin-left: 20%;
+}
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.subarticle-title {
+    font-weight: 400;
+    font-size: 35px;
+}
+
+footer {
+    background-color: #96778c;
+    padding: 3%;
+}
+
+.footer-text {
+    font-weight: 200;
+    font-size: 20px;
+}
+.ooc-disclaimer {
+    color: rgb(82, 78, 78);
+    font-size: 14px;
 }
